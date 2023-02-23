@@ -1,0 +1,19 @@
+#canvas{
+    border: 5px solid black;
+    width: 85%;
+    text-align: center;
+
+}
+
+#topBox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px){
+    #topBox{
+        flex-direction: column;
+        text-align: left;
+    }
+}
